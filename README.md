@@ -52,9 +52,11 @@ The server will start on http://localhost:5000.
 ## 📬 API Endpoints
 Here's a quick summary of the key endpoints:
 
-Method	Endpoint	Description
-POST	/api/login	Authenticates a user and issues a JWT
-GET	/api/protected	A protected route; requires JWT
+| Method | Endpoint         | Description                               |
+|--------|-------------------|-------------------------------------------|
+| POST   | `/api/login`     | Authenticates a user and issues a JWT     |
+| GET    | `/api/protected` | A protected route; requires a JWT token   |
+
 
 
 ##📄 Example Requests
