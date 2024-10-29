@@ -40,7 +40,8 @@ JWT_SECRET=your_jwt_secret_key
 PORT: The port on which the server runs (default: 5000).
 JWT_SECRET: Secret key used to sign the JWTs. Keep this secure and private.
 
-##🚀 Usage
+
+## 🚀 usage
 Start the server by running:
 ```bash
 npm start
@@ -48,7 +49,7 @@ npm start
 
 The server will start on http://localhost:5000.
 
-##📬 API Endpoints
+## 📬 API Endpoints
 Here's a quick summary of the key endpoints:
 
 Method	Endpoint	Description
